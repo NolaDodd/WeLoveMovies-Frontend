@@ -37,7 +37,7 @@ function MoviesList() {
       <ErrorAlert error={error} />
       <h2 className="font-poppins">Now Showing</h2>
       <hr />
-      {list.length === 0 ? <p><b>"Loading..."</b></p> : null}
+      {list.length === 0 ? <p><b>Loading...</b></p> : null}
       <section className="row">{list}</section>
     </main>
   );
